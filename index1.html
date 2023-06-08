@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="h001">
         <nav>
             <ul>
                 <li><a href=#acceuil>acceuil</a></li>
@@ -20,43 +20,42 @@
     </header>
     <main>
         <section id="acceuil">
-            <h1>Acceuil</h1>
-            <p><i><b>bienvennue dans notre projet<br>
+            <h1 style="color: blue;font-size: 50px;">Acceuil</h1>
+            <p style="color:brown"><i><b>bienvennue dans notre projet<br>
                 c'est mon premier projet
             </b></i></p>
         </section>
         <section id="apropos">
-            <h1>a propos</h1>
-            <img src="C:\Users\LENOVO\Desktop\projet1\img" width="300" height="300"><br>
-            <img src="imm.jpg" width="150" height="150"><br>
-            <img src="pc.jpg" width="200" height="200"><br>
+            <h1 style="font-size: 50px;color: blue;" >a propos</h1>
+            <img src="./img/image.jpg" width="300" height="300"><br>
+            <img src="./img/imm.jpg" width="150" height="150"><br>
+            <img src="./img/pc.jpg" width="200px" height="200px"><br>
             <video width="400" height="400" autoplay controls>
-                <source src="flower.webm" type="flower.webm"><br>
+                <source src="./vid/flower.webm" type=""><br>
             </video>
-            <video width="180" height="190" controls>
-                <source src="https://youtu.be/qsbkZ7gIKnc"><br>
-            </video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qsbkZ7gIKnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
         </section>
         <section id="travail">
-            <h1>Travail</h1>
-            <label>nom</label>
+            <h1 style="font-size: 50px;color: blue;">Travail</h1>
+            <label style="font-size: 25px;color: brown;">nom</label>
             <input type="text" name="n"><br>
-            <label>date</label>
+            <label style="font-size: 25px; color:brown">date</label>
             <input type="date" name="d"><br>
-            <input type="submit" name="b" value="envoyer">
-            <input type="button" name="b" value="annuler"><br>
-            <label>terminer travail???</label><br>
-            <label>oui</label>
+            <input type="submit" name="b" value="envoyer" style="color: chartreuse;font-size: 25px;border: 0cqmax;background-color:red;">
+            <input type="button" name="b" value="annuler" style="font-size: 25px;color:chartreuse;border:0lvi;background-color: red;"><br>
+            <label style="font-size:xx-large;">terminer travail???</label><br>
+            <label style="font-size: 30px;color: darkgreen;">oui</label>
             <input type="radio" name="d"><br>
-            <label>non</label>
+            <label style="font-size: 30px;color: darkgreen;">non</label>
             <input type="radio" name="r"><br>
 
         </section>
 
         <section id="contact">
             <h1>Contact</h1>
-            <table border="2">
-                <th>nom</th>
+            <table style="color: blue; border-color: brown;border-block-end-color: blueviolet;">
+                <th >nom</th>
                 <th>prenom</th>
                 <th>num tel</th>
                 <tr>
@@ -89,10 +88,10 @@
         </section>
     </main>
     <footer>
-        <form name="bb" >
+        <!-- <form name="bb" >
            <input type="submit" value="retour">
-        </form>
-        
+        </form> -->
+        <button><a href="#h001">retour</a></button>
     </footer>
 </body>
 </html>
